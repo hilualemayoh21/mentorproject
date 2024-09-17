@@ -17,7 +17,19 @@
             </nav>
         </header>
         <main>
-
+       <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="card_Number" >Card Number</label>
+        <input type="number" id="card_Number" name="cardNumber" >
+        <label for="amount" >Amount of money </label>
+        <input type="number" id="amount" name="amount">
+        <!-- <button type="submit">Donate</button> -->
+        <!-- or -->
+         <input type="submit" value="Donate">
+       </form>
         </main>
     </body>
 </html>
