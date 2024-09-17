@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>the css try </title>
+        <style>
+            input[type=checkbox]{
+                accent-color:red;
+            }
+            input[type=radio]{
+                accent-color:green;
+            }
+            input[type=range]{
+                accent-color:blue;
+            }
+            progress{
+             accent-color:orange;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>the checkbox accent</h1>
+        <input type="checkbox" id="vihicle1" name="vihicle1" value="car" checked>
+        <label id="vihicle1" >i have a car</label><br>
+        <input type="checkbox" name="vihicle2" value="bike" id="vihicle2" checked>
+        <label for="vihicle2">i have a bike</label><br>
+        <input type="radio" name="fav_language" id="html" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" name="fav_language" id="css" value="CSS" checked>
+        <label for="css">CSS</label><br>
+        <input type="range" name="vol" id="vol"  min="0" max="50"><br><br>
+        <label for="file" ><Downloading progress/label>
+        <progress  id="file" value="72" max="100">72</progress>
+    </body>
+</html>
